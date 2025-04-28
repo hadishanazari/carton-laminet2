@@ -55,12 +55,14 @@ function updateClasses() {
 
     item.className = "item";
     item.classList.add(`position-${positions[index]}`);
+
   });
 }
 
 btnNext.addEventListener("click", () => {
   positions.unshift(positions.pop());
   updateClasses();
+
 });
 
 btnPrev.addEventListener("click", () => {
