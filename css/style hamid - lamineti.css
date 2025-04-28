@@ -82,7 +82,8 @@ a {
 }
 
 .header__nav--mobile.active {
-  opacity: 1;
+  display: block;
+  z-index: 10;
   transform: translateY(0);
 }
 
@@ -102,13 +103,12 @@ a {
   position: absolute;
   right: 10px;
   top: 80px;
-  opacity: 0;
-  z-index: 10;
+ display: none;
+  z-index: -10;
   width: 140px;
   transform: translateY(50px);
   transition: opacity 0.5s ease, transform 0.3s ease;
 }
-
 .header__menu--mobile {
   overflow: hidden;
   display: flex;

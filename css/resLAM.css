@@ -33,11 +33,14 @@
   right: auto;
   font-size: 30px;
 }
+.baner .slider{
+  top: 50px;
+}
  .baner .list {
   display: flex;
   position: relative;
-  width: 220px;
-  height: 165px;
+  width: 250px;
+  height: 225px;
   border-radius: 10px;
 
   box-shadow: 20px 15px 20px 10px rgb(0, 0, 0, 0.3),
@@ -45,8 +48,8 @@
     
 }
  .list .item {
-  width: 220px;
-  height: 165px;
+  width: 250px;
+  height: 225px;
   border-radius: 10px;
   position: absolute;
   transition: .5s ease;
@@ -106,7 +109,7 @@
 .baner .btns {
   top: -35px;
   right: 85px;
-  margin: 120px 0 20px 0 ;
+  margin: 100px 0 20px 0 ;
 }
 /*End baner */
 
