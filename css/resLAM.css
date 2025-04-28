@@ -102,6 +102,12 @@
   height: 100%;
   border-radius: 10px;
 }
+
+.baner .btns {
+  top: -35px;
+  right: 85px;
+  margin: 120px 0 20px 0 ;
+}
 /*End baner */
 
 
