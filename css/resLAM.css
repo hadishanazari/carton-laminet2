@@ -28,6 +28,11 @@
  /*End hedar */
 
  /* baner */
+ .baner-title {
+  text-align: center;
+  right: auto;
+  font-size: 30px;
+}
  .baner .list {
   display: flex;
   position: relative;
@@ -47,9 +52,9 @@
   transition: .5s ease;
 }
 .item.position-0 {
-  width: 100%;
-  height: 100%;
-  top: 0;
+  width: 120%;
+  height: 120%;
+  top: -15px;
   left: 0;
   z-index: 5;
   opacity: 1;
