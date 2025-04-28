@@ -309,7 +309,22 @@ a {
   margin-top: 30px;
 }
 
-
+/* .svg {
+  position: absolute;
+  width: 635px;
+  height: 500px;
+  background-color: aqua;
+  opacity: 1;
+  right: 0;
+}
+.svg1 {
+  position: absolute;
+  width: 635px;
+  height: 500px;
+  background-color: rgb(255, 0, 68);
+  opacity: 1;
+  left: 0;
+} */
 
 .baner .slider {
   display: flex;
@@ -351,7 +366,7 @@ a {
   width: 90%;
   height: 90%;
   top: 5%;
-  left: 240px;
+  left: 50%;
   z-index: 4;
   opacity: 1;
 }
@@ -360,7 +375,7 @@ a {
   width: 80%;
   height: 80%;
   top: 10%;
-  left: 430px;
+  left: 100%;
   z-index: 3;
   opacity: 0.6;
 }
@@ -369,7 +384,7 @@ a {
   width: 80%;
   height: 80%;
   top: 10%;
-  left: -350px;
+  left: -80%;
   z-index: 1;
   opacity: 0.6;
 }
@@ -378,7 +393,7 @@ a {
   width: 90%;
   height: 90%;
   top: 5%;
-  left: -200px;
+  left: -40%;
   z-index: 2;
   opacity: 1;
 }
